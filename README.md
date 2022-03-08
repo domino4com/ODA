@@ -1,16 +1,18 @@
-# IWA - Input Weather A
-This is a Weather Sensor measuring Atmospheric **Temperature** and Relative **Humidity**
+# ODA - Output Display A
+This is a OLED Display
+
 | Specifications | |
 | --: | :--: |
 | Communication | I²C |
-| I²C Address | 0x44 |
-| ChipSet | Sensirion SHT30-DIS|
-| Datasheet | [.pdf](https://sensirion.com/media/documents/213E6A3B/61641DC3/Sensirion_Humidity_Sensors_SHT3x_Datasheet_digital.pdf) |
-| Suggested Arduino Library | [GitHub](https://github.com/wemos/WEMOS_SHT3x_Arduino_Library) |
-| Temperature Accuracy | ±0.2 °C |
-| Temperature Range | -40 to 125 °C |
-| Humidity Accuracy | ± 2 %RH |
-| Humidity Range | 0 to 100 %RH |
+| I²C Address | 0x3C |
+| ChipSet | Solomon Systech SSD1306|
+| Datasheet | [.pdf](https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf) |
+| Suggested Arduino Library | [GitHub](https://github.com/ThingPulse/esp8266-oled-ssd1306) |
+| Resolution | 128 x 64 pixels |
+| Diagonal Size | 0.96" |
+| Visual Area | 23.74 x 12.86 mm |
+| Brightness | 120 cd/m² |
+| Contrast Ratio | 2000:1 |
 
 ## Supported I²C Modes
 - [x] 100 kbit/s Standard Mode (SM) 
