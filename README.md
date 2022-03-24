@@ -9,7 +9,7 @@ This is a OLED Display
 | I²C Address | 0x3C |
 | ChipSet | Solomon Systech SSD1306|
 | Datasheet | [.pdf](https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf) |
-| Suggested Arduino Library | [GitHub](https://github.com/ThingPulse/esp8266-oled-ssd1306) |
+| Suggested Arduino Library | Simple:  [GitHub](https://github.com/greiman/SSD1306Ascii)</br>Advanched: [GitHub](https://github.com/ThingPulse/esp8266-oled-ssd1306) |
 | Resolution | 128 x 64 pixels |
 | Diagonal Size | 0.96" |
 | Visual Area | 23.74 x 12.86 mm |
